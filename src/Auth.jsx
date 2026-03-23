@@ -11,6 +11,7 @@ export default function Auth() {
   const [isLogin, setIsLogin] = useState(true);
   const [loading, setLoading] = useState(false);
   // testing git push
+  // test 2
 
   const handleSubmit = async () => {
     if (!email || !password) {
